@@ -28,7 +28,7 @@ object Test13_MyWhile {
    * @return
    */
   def whileFunc2(condition: => Boolean): (=>Unit)=>Unit ={
-        //内层函数需要递归调用，参数就是循环体
+    //内层函数需要递归调用，参数就是循环体
     ops=>{
       if (condition){
         ops
