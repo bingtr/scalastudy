@@ -1,0 +1,3 @@
+update ebiz_message_template set created_user='高雪玲' where template_code = 'YQ_SMS_MESSAGE_CREDIT';
+update ebiz_message_template set created_user='何志林' where template_code = 'SMS_WZYLJ_ELECTRONIC_WY2';
+update ebiz_message_template set created_user='李爱军' where template_code = 'SMS_WDP_PAY_NOTICE';
