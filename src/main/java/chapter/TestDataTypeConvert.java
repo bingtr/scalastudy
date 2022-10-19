@@ -15,6 +15,11 @@ public class TestDataTypeConvert {
             System.out.println("循环第"+k+"次："+x);
         }
         System.out.println(x);
+
+        String aStr = new String("a");
+        String bStr = new String("a");
+        System.out.println(aStr==bStr);
+        System.out.println(aStr.equals(bStr));
     }
     public static void test(byte b){
         System.out.println("Byte");
